@@ -34,4 +34,11 @@ find . -type d: searches for directories in the current directory and subdirecto
 wc -l: counts the number of directories and subdirectories found by the find command
 mindepth 1 option ensures that the current directory is not included in the search 
 
-task 12 : The second line uses the ls command with the -t option, which sorts the files in the current directory by modification time, with the newest files appearing first. The output of ls is then piped to head, which displays only the first 10 lines.
+task 12 : The second line uses the ls command with the -t option, which sorts the files in the current directory by modification time, with the newest files appearing first. The output of ls is then piped to head, which displays only the first 10 lines .
+
+task 13 : 
+ sort is used to sort the words in alphabetical order.
+uniq -u prints only the unique lines that appear exactly once. The -u option tells uniq to only print the lines that occur once in the sorted input.
+To run the script, you can provide the list of words as input using standard input (stdin) like this: cat README.md | ./13-unique
+
+
