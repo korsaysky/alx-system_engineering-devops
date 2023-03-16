@@ -54,5 +54,9 @@ task 19 : The tr command is used to perform the character substitution. The firs
 task 20 : tr: This is the command used to translate or delete characters.
 -d 'cC': This option specifies the characters to be deleted, which are c and C.
 
-task 21 : The rev command will read the input from standard input and print the reversed output to standard output.
+task 21 : The rev command will read the input from standard input and print the reversed output to standard output. 
+
+task 22 : cut -d: -f1,6 /etc/passwd - extracts the first and sixth field from each line of the /etc/passwd file, using ":" as the delimiter
+sort -t: -k1 - sorts the output based on the first field (i.e., the usernames), using ":" as the delimiter
+The output consists of two columns, with the usernames in the first column and the home directories in the second column.
 
