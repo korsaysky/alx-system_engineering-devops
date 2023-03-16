@@ -31,4 +31,5 @@ find .: This command searches for files and directories recursively in the curre
 task 10: #!/bin/bash: specifies the shell to be used for the script
 find . -type d: searches for directories in the current directory and subdirectories
 | : then 
-wc -l: counts the number of directories and subdirectories found by the find command 
+wc -l: counts the number of directories and subdirectories found by the find command
+mindepth 1 option ensures that the current directory is not included in the search 
