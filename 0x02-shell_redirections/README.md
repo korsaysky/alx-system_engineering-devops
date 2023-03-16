@@ -41,4 +41,4 @@ task 13 :
 uniq -u prints only the unique lines that appear exactly once. The -u option tells uniq to only print the lines that occur once in the sorted input.
 To run the script, you can provide the list of words as input using standard input (stdin) like this: cat README.md | ./13-unique
 
-
+task 14,15,16 : i will add descrp later
