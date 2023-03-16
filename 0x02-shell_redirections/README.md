@@ -15,4 +15,5 @@ The second line ls -la > ls_cwd_content uses the ls command with the -la option 
 
 The > operator used in the command above is called output redirection, and it redirects the output of the ls -la command to a file instead of printing it on the terminal.
 
-If the file ls_cwd_content already exists, the above command overwrites its contents, and if it doesn't exist, the command creates it. 
+If the file ls_cwd_content already exists, the above command overwrites its contents, and if it doesn't exist, the command creates it.
+task 9: tail -n 1 iacta >> iacta: This command appends the last line of the file 'iacta' to the end of the same file. The 'tail' command prints out the last 'n' lines of a file, where 'n' is specified by the '-n' flag. In this case, '-n 1' means to print the last line of the file. The '>>' operator is used for redirection and appends the output of the 'tail' command to the end of the same file 'iacta'. 
