@@ -1,0 +1,2 @@
+#!/bin/bash
+tr -d o<<<{a..z}{a..z}|grep -v oo|sort
