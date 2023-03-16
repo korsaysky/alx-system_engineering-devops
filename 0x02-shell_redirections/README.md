@@ -44,3 +44,10 @@ To run the script, you can provide the list of words as input using standard inp
 task 14,15,16 : i will add descrp later
 
 task 17 : grep -v "bin" /etc/passwd: This line uses the grep command to search for lines in the /etc/passwd file that do not contain the pattern "bin". The -v option is used to invert the match, meaning that lines that do not contain the pattern will be displayed. The output of this command will be all the lines in /etc/passwd that do not contain the pattern "bin"
+
+task 18 : grep is a command-line utility that searches for patterns in text.
+"^[[:alpha:]]" is a regular expression that matches all lines starting with a letter. The caret (^) is used to match the beginning of a line, and [[:alpha:]] matches any alphabetic character.
+
+task 19 : The tr command is used to perform the character substitution. The first argument passed to the tr command specifies the set of characters to be replaced, and the second argument specifies the set of characters to replace them with. In this case, we specify that 'A' should be replaced with 'Z' and 'c' should be replaced with 'e'. The script reads input from standard input and writes the modified output to standard output.
+
+
