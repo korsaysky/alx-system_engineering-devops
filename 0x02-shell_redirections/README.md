@@ -16,4 +16,14 @@ The second line ls -la > ls_cwd_content uses the ls command with the -la option 
 The > operator used in the command above is called output redirection, and it redirects the output of the ls -la command to a file instead of printing it on the terminal.
 
 If the file ls_cwd_content already exists, the above command overwrites its contents, and if it doesn't exist, the command creates it.
-task 9: tail -n 1 iacta >> iacta: This command appends the last line of the file 'iacta' to the end of the same file. The 'tail' command prints out the last 'n' lines of a file, where 'n' is specified by the '-n' flag. In this case, '-n 1' means to print the last line of the file. The '>>' operator is used for redirection and appends the output of the 'tail' command to the end of the same file 'iacta'. 
+task 9: tail -n 1 iacta >> iacta: This command appends the last line of the file 'iacta' to the end of the same file. The 'tail' command prints out the last 'n' lines of a file, where 'n' is specified by the '-n' flag. In this case, '-n 1' means to print the last line of the file. The '>>' operator is used for redirection and appends the output of the 'tail' command to the end of the same file 'iacta'.
+
+task 10 : #!/bin/bash: This line is known as the "shebang" and is required at the beginning of every bash script. It tells the system that this file is a bash script and that it should be run with the bash interpreter.
+
+find .: This command searches for files and directories recursively in the current directory and all its subfolders.
+
+-type f: This option specifies that we're only interested in regular files, not directories or other types of files.
+
+-name "*.js": This option specifies that we're only interested in files with a ".js" extension.
+
+-delete: This option specifies that we want to delete the files that match the previous options. 
