@@ -42,3 +42,5 @@ uniq -u prints only the unique lines that appear exactly once. The -u option tel
 To run the script, you can provide the list of words as input using standard input (stdin) like this: cat README.md | ./13-unique
 
 task 14,15,16 : i will add descrp later
+
+task 17 : grep -v "bin" /etc/passwd: This line uses the grep command to search for lines in the /etc/passwd file that do not contain the pattern "bin". The -v option is used to invert the match, meaning that lines that do not contain the pattern will be displayed. The output of this command will be all the lines in /etc/passwd that do not contain the pattern "bin"
