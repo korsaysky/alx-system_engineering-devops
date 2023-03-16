@@ -8,4 +8,11 @@ i will add a descciption later
 6th : The first line specifies that the script should be run with bash.
 The head command is used with the -n 3 option to print the first three lines of the file iacta.
 The tail command is used with the -n 1 option to print the last line of the output produced by head -n 3.
-The result is that the third line of the file iacta is printed to the standard output 
+The result is that the third line of the file iacta is printed to the standard output
+8 : The first line #!/bin/bash is the shebang line that specifies the interpreter that will be used to execute the script.
+
+The second line ls -la > ls_cwd_content uses the ls command with the -la option to list all files and directories in the current working directory in long format (including file permissions, ownership, size, and modification time), and redirects the output to a file named ls_cwd_content.
+
+The > operator used in the command above is called output redirection, and it redirects the output of the ls -la command to a file instead of printing it on the terminal.
+
+If the file ls_cwd_content already exists, the above command overwrites its contents, and if it doesn't exist, the command creates it. 
