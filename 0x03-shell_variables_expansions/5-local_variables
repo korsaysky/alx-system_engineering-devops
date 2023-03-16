@@ -1,2 +1,3 @@
 #!/bin/bash
-declare -p
+set | grep -v 'BASH_FUNC_' | grep -v 'FUNCNAME' | grep -v 'BASH_ARG' | grep -v 'BASH_LINENO' | grep -v 'BASH_SOURCE' | grep -v 'PIPESTATUS'
+
