@@ -28,8 +28,10 @@ find .: This command searches for files and directories recursively in the curre
 
 -delete: This option specifies that we want to delete the files that match the previous options.
 
-task 10: #!/bin/bash: specifies the shell to be used for the script
+task 11: #!/bin/bash: specifies the shell to be used for the script
 find . -type d: searches for directories in the current directory and subdirectories
 | : then 
 wc -l: counts the number of directories and subdirectories found by the find command
 mindepth 1 option ensures that the current directory is not included in the search 
+
+task 12 : The second line uses the ls command with the -t option, which sorts the files in the current directory by modification time, with the newest files appearing first. The output of ls is then piped to head, which displays only the first 10 lines.
