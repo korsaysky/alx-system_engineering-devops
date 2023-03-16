@@ -51,3 +51,8 @@ task 18 : grep is a command-line utility that searches for patterns in text.
 task 19 : The tr command is used to perform the character substitution. The first argument passed to the tr command specifies the set of characters to be replaced, and the second argument specifies the set of characters to replace them with. In this case, we specify that 'A' should be replaced with 'Z' and 'c' should be replaced with 'e'. The script reads input from standard input and writes the modified output to standard output.
 
 
+task 20 : tr: This is the command used to translate or delete characters.
+-d 'cC': This option specifies the characters to be deleted, which are c and C.
+
+task 21 : The rev command will read the input from standard input and print the reversed output to standard output.
+
